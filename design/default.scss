@@ -1,0 +1,40 @@
+$custom-colors: (
+    'primary' : #24A19C,
+    'secondary' : #FAEEE7,
+    "tertiaire" : #325288,
+    "quartary" : #FE7E6D   
+);
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+html,body {
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+  }
+
+.aside {
+   box-shadow: 1px -2px 15px 3px rgba(0, 0, 0, 0.74);
+  -webkit-box-shadow: 1px -2px 15px 3px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: 1px -2px 15px 3px rgba(0, 0, 0, 0.74);
+  min-width: 330px;
+}
+
+.grid_photo img {
+  height: 300px;
+}
+
+#editor {
+  height: 200px;
+}
