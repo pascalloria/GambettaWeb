@@ -13,9 +13,9 @@ let nav = `
     </button>
     <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav ">
-            <li class="nav-item"><a class="nav-link" href="index.html">Acceuil</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
             <li class="nav-item"><a class="nav-link" href="gazette.html">La gazette</a></li>
-            <li class="nav-item"><a class="nav-link" href="compteRendu.html">Le Conseil au travail</a></li>
+            <li class="nav-item"><a class="nav-link" href="conseil.html">Le Conseil au travail</a></li>
             <li class="nav-item"><a class="nav-link" href="photos.html">Photos</a></li>           
             <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>                
         </ul>   
