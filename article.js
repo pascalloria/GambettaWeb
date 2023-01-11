@@ -43,7 +43,7 @@ let rootArticle = document.querySelector("#rootArticle")
 articles.forEach(element => {     
     let p = new article(...element)    
     if (p.visible) {
-        if (window.location.pathname =="/index.html") {
+        if (window.location.pathname =="/index.html" || window.location.pathname =="/"  ) {
             let art=document.createElement("article")
             art.classList.add("mt-4")
             actualite.appendChild(art)
