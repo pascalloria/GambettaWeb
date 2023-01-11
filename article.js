@@ -1,11 +1,14 @@
 
 class article  {
-    constructor( titre, contenu , auteur , date,visible = true){
+    constructor( titre, contenu , auteur , date, resume,img,link,visible = true){
         this.titre = titre;
         this.contenu = contenu;
-        this.auteur = auteur
-        this.date = date
-        this.visible = visible
+        this.auteur = auteur;
+        this.date = date;
+        this.resume = resume;
+        this.img = img;
+        this.link = link;
+        this.visible = visible;
     }  
 }
 
@@ -27,22 +30,41 @@ let articles = [
     <p class="ql-align-justify">Les étoiles dans les yeux des petits sont aussi brillantes que les sourires sur les visages des conseillers sont éclatants.
      Nous voulions une fête pour les petits et les grands, elle est réussie.</p><p class="ql-align-justify">Quelle joie pour nous d’avoir fait participer les enfants,
       de s’être retrouvés autour d’un moment de gaieté et de convivialité. Notre résidence, c’est ça&nbsp;! Des familles, des jeunes, des moins jeunes, comme Josée, venue pour siroter un café et papoter avec tous, des gens heureux de vivre dans ce beau village qu’est Gambetta.</p><p class="ql-align-justify">Du fond du cœur merci à tous. Merci à tous les commerçants qui ont participé à l’évènement, merci aux bénévoles, merci à tous ceux qui ont œuvré pour que ce moment soit aussi agréable. Et merci à vous, gambétiens, petits et grands qui avez fait de cet après-midi du 10 décembre, un moment magique&nbsp;! Vivement les prochains&nbsp;😉</p><p class="ql-align-justify">Les sponsors&nbsp;: Yerres Loisirs, Le bazar du ptit gris, Tabac presse Gambetta, Carré Chocolathé, La Chocolat’Yerres, Le Pain de 4 livres, Cinéma Paradiso, le manège du centre-ville, la crêperie LL’As</p><p class="ql-align-justify">Les élus&nbsp;: Nicolas Dupont-Aignan, Bernadette Beck, Jean-Claude Leroux, Dominique Renonciat et Alexandre Dumont.</p>`,
-    `Karine GUERRIN`,`12/12/2022`],
-
-  
-
+    `Karine GUERRIN`,`12/12/2022`,"Café, chocolat chaud, sucrerie, pattisserie, décoration, sapin et cadeau,tous les ingrédients pour un goûter de noel réussi en l'honner des jeunes artistes de Gambetta",
+    "noel/image3.jpg","article1"],
 
 ]
 
 let actualite = document.querySelector("#actualite") 
+let rootArticle = document.querySelector("#rootArticle")
 
- 
+
+
 articles.forEach(element => {     
-    let p = new article(...element)
+    let p = new article(...element)    
     if (p.visible) {
-        let art=document.createElement("article")
-        art.classList.add("mt-4")
-        actualite.appendChild(art)
-        art.innerHTML = "<h3>" + p.titre + "</h3> <div class='mt-3 fs-4'>" + p.contenu + "</div> <span class='fst-italic fw-light'> écrit le " + p.date + " par " + p.auteur +"</span> <hr>"
-    }   
+        if (window.location.pathname =="/index.html") {
+            let art=document.createElement("article")
+            art.classList.add("mt-4")
+            actualite.appendChild(art)
+            let src = "images/" + p.img        
+            art.innerHTML = 
+            '<div class="card p-3">'+
+                '<img src=' + src + ' alt="Tables des delices" class="card-img-top" />'+
+                '<div class="card-header h3">'+ p.titre + '</div>'+
+                '<div class="card-body">' +
+                '<p class="card-text"> '  + p.resume +' </p>'  +         
+                '</div>'+
+                '<div class="card-footer text-end">'+
+                    '<a href="'+p.link+'.html" class="btn btn-primary ">Lire l\'article</a>'+
+                '</div>'+
+            '</div>' } 
+        else if (window.location.pathname =="/"+p.link+".html"){
+            let article=document.createElement("article")
+            article.classList.add("mt-4")
+            rootArticle.appendChild(article)
+            let src = "images/" + p.img        
+            article.innerHTML = "<h3>" + p.titre + "</h3> <div class='mt-3 fs-4'>" + p.contenu + "</div> <span class='fst-italic fw-light'> écrit le " + p.date + " par " + p.auteur +"</span> <hr>"
+        }
+    }  
 });
