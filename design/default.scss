@@ -31,10 +31,14 @@ img {
   min-width: 330px;
 }
 
-.grid_photo img {
-  height: 300px;
-}
+
 
 #editor {
   height: 200px;
+}
+
+@media screen and (min-width :580px) {
+  .grid_photo img {
+  height: 300px;
+  }
 }
