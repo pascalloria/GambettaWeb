@@ -2,17 +2,19 @@ function data () {
   let content = quill.root.innerHTML;
   let titleValue = title.value;
   let authorValue = author.value;
+  let resumeValue = resume.value;
   let date = today.getDate() + "/"+(today.getMonth()+1)+"/"+today.getFullYear()
-  return [titleValue,content,authorValue,date]
+  let id =  Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1)
+  return [titleValue,content,authorValue,date,resumeValue,id]
 }
 
 
 function formatData(datas){
-  for (let i=0; i<4 ; i++){
-      formatedDatas.push('`'+datas[i]+'`')
-  }   
-  return(formatedDatas.join(","))  
-}
+  datas.forEach(data => {
+    formatedDatas.push('`'+data+'`')
+  });
+  return(formatedDatas.join(","))     
+  }  
 
 let toolbarOption = [
   ['bold', 'italic', 'underline', 'strike'],        
@@ -36,6 +38,7 @@ let quill = new Quill('#editor',options);
 let btn              = document.querySelector("#submit")
 let title            = document.querySelector("#title")
 let author           = document.querySelector("#author")
+let resume           = document.querySelector("#resume")
 let today            = new Date();
 let formatedDatas    = []
 let copy             =  document.querySelector("#copy")

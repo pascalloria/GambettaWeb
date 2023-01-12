@@ -1,6 +1,6 @@
 
 class article  {
-    constructor( titre, contenu , auteur , date, resume,img,link,visible = true){
+    constructor( titre, contenu, auteur, date, resume, link, img="Photo1.jpg", visible = true){
         this.titre = titre;
         this.contenu = contenu;
         this.auteur = auteur;
@@ -31,8 +31,7 @@ let articles = [
      Nous voulions une fête pour les petits et les grands, elle est réussie.</p><p class="ql-align-justify">Quelle joie pour nous d’avoir fait participer les enfants,
       de s’être retrouvés autour d’un moment de gaieté et de convivialité. Notre résidence, c’est ça&nbsp;! Des familles, des jeunes, des moins jeunes, comme Josée, venue pour siroter un café et papoter avec tous, des gens heureux de vivre dans ce beau village qu’est Gambetta.</p><p class="ql-align-justify">Du fond du cœur merci à tous. Merci à tous les commerçants qui ont participé à l’évènement, merci aux bénévoles, merci à tous ceux qui ont œuvré pour que ce moment soit aussi agréable. Et merci à vous, gambétiens, petits et grands qui avez fait de cet après-midi du 10 décembre, un moment magique&nbsp;! Vivement les prochains&nbsp;😉</p><p class="ql-align-justify">Les sponsors&nbsp;: Yerres Loisirs, Le bazar du ptit gris, Tabac presse Gambetta, Carré Chocolathé, La Chocolat’Yerres, Le Pain de 4 livres, Cinéma Paradiso, le manège du centre-ville, la crêperie LL’As</p><p class="ql-align-justify">Les élus&nbsp;: Nicolas Dupont-Aignan, Bernadette Beck, Jean-Claude Leroux, Dominique Renonciat et Alexandre Dumont.</p>`,
     `Karine GUERRIN`,`12/12/2022`,"Café, chocolat chaud, sucrerie, pattisserie, décoration, sapin et cadeau,tous les ingrédients pour un goûter de noel réussi en l'honner des jeunes artistes de Gambetta",
-    "noel/image3.jpg","article1"],
-
+    "article1","noel/image3.jpg"],
 ]
 
 let actualite = document.querySelector("#actualite") 
@@ -50,7 +49,7 @@ articles.forEach(element => {
             let src = "images/" + p.img        
             art.innerHTML = 
             '<div class="card p-3">'+
-                '<img src=' + src + ' alt="Tables des delices" class="card-img-top" />'+
+                '<img src=' + src + '  class="card-img-top" />'+
                 '<div class="card-header h3">'+ p.titre + '</div>'+
                 '<div class="card-body">' +
                 '<p class="card-text"> '  + p.resume +' </p>'  +         
