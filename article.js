@@ -35,19 +35,27 @@ let articles = [
     [`Les barrières - où en sommes nous ?`,
     `<p>Bonjour à toutes et tous.</p><h2>Où en sommes-nous des barrières ? </h2><br><h3>Plusieurs choses ont été faites ces derniers mois...</h3><ul><li>il y a eu une reprise des ouvrages : certains poteaux étaient mal fixés, penchaient, etc...cela venait des socles
      en béton qui n'étaient pas assez solides</li><li>sur certaines barrières, les câbles étaient mal enterrés, et ont fini par être sectionnés... c'était tellement prévisible! Ils ont également
-      été réparés et enterrés comme il se doit....</li><li>les panneaux indiquant les entrées et sorties ont été mis en place. Les sorties sont automatiques : il suffit d'être devant la barrière
-       (dans son véhicule) pour qu'elle s'ouvre</li><li>le sens de circulation a été adapté rue du Jura afin de permettre une circulation cohérente : c'est là que se situe l'entrée principale de 
-       la résidence avec la platine d'appel.</li><li>des protections en acier (jaune) ont été installées afin que les barrières ne soient plus endommagées. Attention à vos véhicules en tournant...
-        <img src="https://static.xx.fbcdn.net/images/emoji.php/v9/t57/1/16/1f609.png" style="width:28px" alt="😉"></li></ul><p><br></p>
-        <h3> Mais il y a encore des actions à réaliser avant la mise en service...</h3>
-        <ul><li>redresser le poteau à côté de l'école</li><li>poser les barrières fixes en face du bâtiment
-         K pour éviter que les gens ne contournent les barrières mobiles</li><li>supprimer une place visiteur sur le parking en face du D2, pour permettre aux camions poubelle de tourner 
-         avec les nouveaux sens de circulation</li><li>faire des tests!! on croise les doigts pour que ça fonctionne au premier coup!!!</li><li>Faire une communication pour annoncer la mise en
-          service : certains ne sont pas encore allés chercher leur badge....</li></ul><p>Pour information, le nouveau CS bloque le paiement des factures restantes sur ce dossier. </p><p>Une barrière est cassée au sol sur le parking visiteur à côté du petit supermarché. Cette barrière fait l'objet d'une prise en charge par l'assureur.</p>`,
-          `Pascal D`,`13/1/2023`,`Il reste encore quelques petites choses à régler avant de pouvoir passer au test de bon fonctionnement des barrières. 
-          Pour ceux qui ne l'auraient pas encore fait, il est temps d'aller chercher vos badges chez le gardien. Nous bloquons le paiement des factures pour le moment.
-           La barrière au sol à côté du petit supermarché fait l'objet d'une prise en charge par l'assureur, et sera réparée dans un second temps. `,`af0d`,"barriere.jpg"],
-           [`Une premiere permanence CS`,`<p>Comme indiqué dans les hall, le CS a tenu une permanence mercredi 15/02. Cela a été l’occasion de rencontrer certains d’entre vous et d’échanger sur de très nombreux sujets : la hausse des charges, le prix du gaz, le chauffage, les barrières, la rénovation énergétique, les poubelles,…</p><p>Cela nous a permis de donner plus de détails sur notre action, de répondre à des questions précises, de prendre connaissance de problèmes dont nous ignorions l’existence.</p><p>Cela a aussi été l’occasion de partager des idées d’améliorations, des suggestions. Le conseil syndical représente les copropriétaires, mais nous n’avons pas la science infuse. Toutes les bonnes volontés et toutes les idées sont les bienvenues : tous ensemble nous sommes plus forts. Vos idées, vos connaissances, vos compétences peuvent profiter à tous !</p><p>Merci à tous ceux qui sont venus nous voir.</p><p>Nous proposerons prochainement une nouvelle permanence, et promis, nous essaierons de vous prévenir plus tôt.</p><p><br></p><p>N’hésitez pas à venir ou à revenir </p>`,`Pascal D`,`16/2/2023`,`Une première permanence du CS en ce mercredi 15/02. Des échanges sur de très nombreux sujets : la hausse des charges, le prix du gaz, le chauffage, les barrières, la rénovation énergétique, les poubelles,…`,`b307`]
+    été réparés et enterrés comme il se doit....</li><li>les panneaux indiquant les entrées et sorties ont été mis en place. Les sorties sont automatiques : il suffit d'être devant la barrière
+    (dans son véhicule) pour qu'elle s'ouvre</li><li>le sens de circulation a été adapté rue du Jura afin de permettre une circulation cohérente : c'est là que se situe l'entrée principale de 
+    la résidence avec la platine d'appel.</li><li>des protections en acier (jaune) ont été installées afin que les barrières ne soient plus endommagées. Attention à vos véhicules en tournant...
+    <img src="https://static.xx.fbcdn.net/images/emoji.php/v9/t57/1/16/1f609.png" style="width:28px" alt="😉"></li></ul><p><br></p>
+    <h3> Mais il y a encore des actions à réaliser avant la mise en service...</h3>
+    <ul><li>redresser le poteau à côté de l'école</li><li>poser les barrières fixes en face du bâtiment
+    K pour éviter que les gens ne contournent les barrières mobiles</li><li>supprimer une place visiteur sur le parking en face du D2, pour permettre aux camions poubelle de tourner 
+    avec les nouveaux sens de circulation</li><li>faire des tests!! on croise les doigts pour que ça fonctionne au premier coup!!!</li><li>Faire une communication pour annoncer la mise en
+    service : certains ne sont pas encore allés chercher leur badge....</li></ul><p>Pour information, le nouveau CS bloque le paiement des factures restantes sur ce dossier. </p>
+    <p>Une barrière est cassée au sol sur le parking visiteur à côté du petit supermarché. Cette barrière fait l'objet d'une prise en charge par l'assureur.</p>`,
+    `Pascal D`,`13/1/2023`,`Il reste encore quelques petites choses à régler avant de pouvoir passer au test de bon fonctionnement des barrières. 
+    Pour ceux qui ne l'auraient pas encore fait, il est temps d'aller chercher vos badges chez le gardien. Nous bloquons le paiement des factures pour le moment.
+    La barrière au sol à côté du petit supermarché fait l'objet d'une prise en charge par l'assureur, et sera réparée dans un second temps. `,`af0d`,"barriere.jpg"],
+    [`Une premiere permanence CS`,
+    `<p>Comme indiqué dans les halls, le CS a tenu une permanence mercredi 15/02. Cela a été l’occasion de rencontrer certains d’entre vous et d’échanger sur de très nombreux sujets : la hausse des charges,
+    le prix du gaz, le chauffage, les barrières, la rénovation énergétique, les poubelles,…</p><p>Cela nous a permis de donner plus de détails sur notre action, de répondre à des questions précises,
+    de prendre connaissance de problèmes dont nous ignorions l’existence.</p>
+    <p>Cela a aussi été l’occasion de partager des idées d’améliorations, des suggestions. Le conseil syndical représente les copropriétaires, mais nous n’avons pas la science infuse. <br> Toutes les bonnes
+    volontés et toutes les idées sont les bienvenues : tous ensemble nous sommes plus forts. Vos idées, vos connaissances, vos compétences peuvent profiter à tous !</p>
+    <p>Merci à tous ceux qui sont venus nous voir.</p><p>Nous proposerons prochainement une nouvelle permanence, et promis, nous essaierons de vous prévenir plus tôt.</p><p><br></p><p>N’hésitez pas à venir ou à revenir </p>`,`Pascal D`,`16/2/2023`,
+    `Une première permanence du CS en ce mercredi 15/02. Des échanges sur de très nombreux sujets : la hausse des charges, le prix du gaz, le chauffage, les barrières, la rénovation énergétique, les poubelles,…`,`b307`]
 ]
 
 let actualite = document.querySelector("#actualite") 
