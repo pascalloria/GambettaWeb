@@ -44,7 +44,7 @@ let articles = [
          K pour éviter que les gens ne contournent les barrières mobiles</li><li>supprimer une place visiteur sur le parking en face du D2, pour permettre aux camions poubelle de tourner 
          avec les nouveaux sens de circulation</li><li>faire des tests!! on croise les doigts pour que ça fonctionne au premier coup!!!</li><li>Faire une communication pour annoncer la mise en
           service : certains ne sont pas encore allés chercher leur badge....</li></ul><p>Pour information, le nouveau CS bloque le paiement des factures restantes sur ce dossier. </p><p>Une barrière est cassée au sol sur le parking visiteur à côté du petit supermarché. Cette barrière fait l'objet d'une prise en charge par l'assureur.</p>`,
-          `P; Drigou`,`13/1/2023`,`Il reste encore quelques petites choses à régler avant de pouvoir passer au test de bon fonctionnement des barrières. 
+          `Pascal D`,`13/1/2023`,`Il reste encore quelques petites choses à régler avant de pouvoir passer au test de bon fonctionnement des barrières. 
           Pour ceux qui ne l'auraient pas encore fait, il est temps d'aller chercher vos badges chez le gardien. Nous bloquons le paiement des factures pour le moment.
            La barrière au sol à côté du petit supermarché fait l'objet d'une prise en charge par l'assureur, et sera réparée dans un second temps. `,`af0d`,"barriere.jpg"]
 ]
